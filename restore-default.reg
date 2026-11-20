@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+; Remove the three Office feature overrides added by hide-upgrade-button.reg.
+; This restores Office's default handling of these feature flags.
+; It does not restore any custom values that existed before the hide script.
+; Close Word, Excel and PowerPoint before importing this file.
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\word]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\excel]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\powerpoint]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"=-
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"=-

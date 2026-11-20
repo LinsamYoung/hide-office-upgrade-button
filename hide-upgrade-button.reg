@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\word]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"="false"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\excel]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"="false"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides\powerpoint]
+"Microsoft.Office.Licensing.ShowPerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePerpetualUpgrade"="false"
+"Microsoft.Office.Licensing.EnablePersistentUpgradeButton"="false"
