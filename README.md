@@ -4,10 +4,6 @@
 
 [简体中文](#简体中文) | [English](#english)
 
-A lightweight Windows Registry tweak to hide the **"Upgrade your plan"** button in Microsoft Office.
-
-通过 Windows 注册表隐藏 Microsoft Office 标题栏右上角的「升级计划」按钮，让 Office 界面更加简洁。
-
 ---
 
 ## 简体中文
